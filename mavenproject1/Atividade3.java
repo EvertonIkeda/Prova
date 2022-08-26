@@ -18,9 +18,9 @@ public class Atividade3 {
             massa = massa / 2;
         }
         
-        hora = tempo / 360;
-        minuto = (tempo - (hora * 360))/60;
-        segundo = tempo - (hora * 360) - (minuto * 60);
+        hora = tempo / 3600;
+        minuto = (tempo - (hora * 3600))/60;
+        segundo = tempo - (hora * 3600) - (minuto * 60);
         
         System.out.println("A massa final é " + massa + "g.");
         System.out.println("O tempo necessário para alcançar uma massa inferior a 0,5 gramas é de " + hora + "h " + minuto + "m " + segundo + "s.");
